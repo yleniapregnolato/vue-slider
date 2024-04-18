@@ -4,6 +4,7 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
+      activeIndex: 0,
       images: [
           {
             image: "img/01.webp",
@@ -32,5 +33,22 @@ createApp({
           },
         ],
       };
+    },
+    methods: {
+      showNext: function() {
+        if(this.activeIndex === this.images.length -1) {
+          this.activeIndex = 0;
+        } else {
+          this.activeIndex++;
+        }
+      },
+
+      showPrev: function() {
+        if(this.activeIndex === 0) {
+          this.activeIndex = this.image.length -1;
+        } else {
+          this.activeIndex--;
+        }
+      }
     }
   }).mount("#app");
