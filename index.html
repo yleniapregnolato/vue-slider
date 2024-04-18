@@ -59,9 +59,7 @@
                 </div>
                 <!-- immagini interne -->
                 <img class="img-fluid my-thumbnail active" :src="curImage.image"
-                  alt="Thumbnail of Marvel's Spiderman Miles Morale picture" v-for="(curImage, image) in images"/>
-                <!-- <img class="img-fluid my-thumbnail" src="./img/02.webp"
-                  alt="Thumbnail of Ratchet & Clank: Rift Apart picture" /> -->
+                  alt="Thumbnail of Marvel's Spiderman Miles Morale picture" v-for="(curImage, index) in images" @click="activeIndex = index" />
                 <!-- etc ... -->
               </div>
             </div>
