@@ -10,7 +10,7 @@ Al click dell'utente sulle frecce verso sinistra o destra, l'immagine attiva con
 Aggiungere il **ciclo infinito** del carosello. Ovvero se la miniatura attiva è la prima e l'utente clicca la freccia verso destra, la miniatura che deve attivarsi sarà l'ultima e viceversa per l'ultima miniatura se l'utente clicca la freccia verso sinistra.
 
 ## Bonus:
-- [ ] creare dei thumb
-- [ ] al click su una thumb, visualizzare in grande l'immagine corrispondente
+- [x] creare dei thumb
+- [x] al click su una thumb, visualizzare in grande l'immagine corrispondente
 - [ ] applicare l'autoplay allo slider: ogni 3 secondi, cambia immagine automaticamente
 - [ ] Gestire lo stop di autoplay e l'inversione
